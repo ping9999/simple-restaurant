@@ -1,54 +1,62 @@
 body{
     width: 100%;
 }
-.container .col-6 a{
+.container-fluid  .col-6 a{
     color: red;
     padding-top: 20px;
 }
-.container .head {
+.clear-float {
+    clear: both;
+}
+.container-fluid .head {
   
     height: 230px;
    
 }
-.container .head .d-flex {
+.container-fluid  .head .d-flex {
     padding-top: 90px;
     text-align: center;
     padding-right: 30%;
     padding-left: 30%;
 }
-.container .body-explore {
+.container-fluid  .body-explore {
     text-align: center;
     margin: 50px auto;
 }
-.container .body-explore .row {
+.container-fluid  .body-explore .row {
     height: 250px;
     padding-right: 100px;
     margin: 50px auto;
     
 }
-.container .body-explore .row p {
+.container-fluid  .body-explore .row p {
     padding-top: 240px;
     color: white;
 }
-.container .body-menu {
+.container-fluid  .body-menu {
    width: 100%;
    margin: auto;
-   background-color: whitesmoke;
+   background-color: rgb(224, 215, 215);
 }
-.container .body-menu .col-5 {
-margin: 15px; 
-padding-left: 100px;
+.container-fluid .body-menu .row{
+    width: 80%;
+    margin: auto;
 }
-.container .body-menu #body-menu-child{
-    margin: px;
-}
-.container .body-menu .col-5 img{
+
+.container-fluid  .body-menu .col-6 img{
     float: left;
     margin: 5px;
    
 }
-.container .body-menu .col-5 .text {
+.container-fluid  .body-menu .col-6 .text {
     float: right;
+   
+}
+.container-fluid  .body-menu .center {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  
 }
 .end {
     
